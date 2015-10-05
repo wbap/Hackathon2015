@@ -1,0 +1,29 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Python Byte Code
+*.pyc
+
+# Vim Swap File
+*.swp
+
+# image data store
+mitsuba/data/
+self_mit_fp_*/
