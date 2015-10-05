@@ -1,15 +1,4 @@
-# Team Hiroshiba
-Add a one line description here...
+2015年9月に開催された第1回WBAIハッカソンに『鏡像自己認識機能のための自己連動感の獲得』というタイトルで出場したチームの成果物リポジトリです。
 
-## Team Members (Mentors)
-- Member 1
-- Member 2
-
-## Introduction
-Some introduction...
-
-## Materials and Methods
-Some materials and methods information...
-
-## Results and Discussion
-Some results and discussion...
+第1回WBAIハッカソン  
+http://wbawakate.jp/events/hackathon2015/
