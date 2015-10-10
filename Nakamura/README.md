@@ -1,15 +1,28 @@
-# Team Nakamura
-Add a one line description here...
+The First WBAI Hackathon (2015-09) Team Report
 
-## Team Members (Mentors)
-- Member 1
-- Member 2
+The Title of the Project:
+Disassembly and Reconstruction of the Deep Learning
 
-## Introduction
-Some introduction...
+Members: name, affiliate; name, affiliate; …
+- Kotone Itaya, Keio Univ. SFC
+- Urara Watanabe, Keio Univ. SFC
+- Kazeto Fukasawa, Keio Univ. SFC
+- Kentaro Nakamura, Keio Univ. SFC
+- (Koichi Takahashi)
 
-## Materials and Methods
-Some materials and methods information...
+Abstract: 
+This is our assignment for WBAI hackathon which was held in Tokyo 2015
+Our purpose is thinking about DeepLearning algorithm itself with several ways.
+we have had three outputs.
 
-## Results and Discussion
-Some results and discussion...
+first: multimodal deep learning  
+second: stacked convolutional autoencoder
+third: 
+
+Goal:
+
+Method:
+
+Result:
+
+Reference:
