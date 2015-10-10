@@ -11,13 +11,13 @@ Members: name, affiliate; name, affiliate; …
 - (Koichi Takahashi)
 
 Abstract: 
-This is our assignment for WBAI hackathon which was held in Tokyo 2015
+This is our assignment for WBAI hackathon which was held in Tokyo 2015.
 Our purpose is thinking about DeepLearning algorithm itself with several ways.
 we have had three outputs.
 
 first: multimodal deep learning  
 second: stacked convolutional autoencoder
-third: 
+third: Developmental Learning
 
 Goal:
 
