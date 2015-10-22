@@ -1,0 +1,2 @@
+1epoch_params:LSTMを1epoch学習させた時のパラメータ
+10epoch_params:LSTMを10epoch学習させた時のパラメータ
