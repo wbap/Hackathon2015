@@ -9,7 +9,7 @@ Cat classification
 
 
 #How to use
-1.Unpack images.zip
+1.Unzip images.zip
 2.Strage [[name].py], [dataset_[name].py] and [images] in the same layer directory.
 3.Run [[name].py].
 
