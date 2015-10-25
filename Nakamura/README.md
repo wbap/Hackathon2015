@@ -18,11 +18,3 @@ we have had three outputs.
 first: multimodal deep learning  
 second: stacked convolutional autoencoder
 third: Developmental Learning
-
-Goal:
-
-Method:
-
-Result:
-
-Reference:
