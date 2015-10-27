@@ -4,7 +4,7 @@ In this case, I made a CNN(based on VGG-mini) which does an image clastering tas
 In order to make comparison, I made another CNN which just outputs result of training for each numbers of layers.
 
 results are as follows.
-![dev-test-acc](https://raw.github.com/wiki/john5a18/Hackathon2015/developmental_result/log-test_acc.png)
+![dev-test-acc]("https://raw.github.com/wiki/john5a18/Hackathon2015/developmental_result/log-test_acc.png")
 ![タイトル](リンクURL)
 ![タイトル](リンクURL)
 ![タイトル](リンクURL)
