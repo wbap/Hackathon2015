@@ -1,12 +1,14 @@
 #Purpose
 I wanted to simulate developmental way of learning with deep learning algorithm.
-In this case, I made a CNN(based on VGG-mini) which learn a specific task of image clastering with adding layer in step by step way. I took Cifar-10 for a database to use. An important point is, attaching new layer to input layer. My purpose was, making a result which is given by an incremental development of learning accuracy.
+In this case, I made a CNN(based on VGG-mini) which does an image clastering task with adding layer step by step. I took the Cifar-10 for a database to use. An important point is, attaching new layer to input layer. My purpose was, finding a result which is given by an incremental development of learning accuracy.
 In order to make comparison, I made another CNN which just outputs result of training for each numbers of layers.
 
 results are as follows.
 
 
 There are two points. (1)the difference of curvature. (2)with epoch goes, accuracy and loss of developmental way of CNN training hit a roof.
+(1) is obviously caused by the way of learning. it seems that developmental way of learning can get good acuracy with less times of epoch. 
+(2) is caused by the first step of learning with minimum layers. In my case, weights are fixed in order from output layer, so output accuracy and loss are limited by the first training.
 
 
 
