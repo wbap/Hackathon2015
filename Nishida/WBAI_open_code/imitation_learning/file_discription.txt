@@ -1,0 +1,2 @@
+imitation_learning_DQN_LSTM.py:学習済みDQNの畳み込み層とLSTMの重みを使って、全結合ネットワーク部分を学習させる。
+experiment_imitation.py:rl_glueのセットアップ
