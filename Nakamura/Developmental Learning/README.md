@@ -4,7 +4,10 @@ In this case, I made a CNN(based on VGG-mini) which does an image clastering tas
 In order to make comparison, I made another CNN which just outputs result of training for each numbers of layers.
 
 results are as follows.
-
+![dev-test-acc](https://raw.github.com/wiki/john5a18/Hackathon2015/developmental_result/log-test_acc.png)
+![タイトル](リンクURL)
+![タイトル](リンクURL)
+![タイトル](リンクURL)
 
 There are two points. (1)the difference of curvature. (2)with epoch goes, accuracy and loss of developmental way of CNN training hit a roof.
 (1) is obviously caused by the way of learning. it seems that developmental way of learning can get good acuracy with less times of epoch. 
