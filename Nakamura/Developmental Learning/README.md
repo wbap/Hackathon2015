@@ -1,8 +1,18 @@
 #Purpose
 I wanted to simulate developmental way of learning with deep learning algorithm.
-my approach is, training developmental 
+In this case, I made a CNN(based on VGG-mini) which learn a specific task of image clastering with adding layer in step by step way. I took Cifar-10 for a database to use. An important point is, attaching new layer to input layer. My purpose was, making a result which is given by an incremental development of learning accuracy.
+In order to make comparison, I made another CNN which just outputs result of training for each numbers of layers.
 
-#download dataset
+results are as follows.
+
+
+There are two points. (1)the difference of curvature. (2)with epoch goes, accuracy and loss of developmental way of CNN training hit a roof.
+
+
+
+
+#How To Train
+#Download dataset
 sh download.sh
 
 this command is gonnam make 'cifar-10-batches-py' directory which contains 5 data batches, readme.html, and so on.
