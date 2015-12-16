@@ -1,0 +1,4 @@
+| 101 |    1 |         96 | 2015-09-19 14:35:59 | s1407186.xgsspn.imtp.tachikawa.spmode.ne.jp    |
+| 102 |    3 |         92 | 2015-09-19 14:36:05 | s1407186.xgsspn.imtp.tachikawa.spmode.ne.jp    |
+| 103 |    5 |         91 | 2015-09-19 14:36:13 | s1407186.xgsspn.imtp.tachikawa.spmode.ne.jp    |
+| 104 |    7 |         98 | 2015-09-19 14:36:18 | s1407186.xgsspn.imtp.tachikawa.spmode.ne.jp    |
