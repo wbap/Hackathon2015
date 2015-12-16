@@ -1,0 +1,27 @@
+CREATE TABLE log (
+  page_id TINYINT,
+  time datetime,
+  ip TEXT,
+  browser TEXT
+);
+CREATE TABLE user (
+	id int primary key auto_increment,
+  mail CHAR(100) unique,
+  sex TINYINT,
+  age TINYINT
+);
+
+create table review(
+	user_id int unsigned,
+	p_id SMALLINT,
+	impression TINYINT,
+  time datetime
+);
+
+create table review(
+  id int primary key auto_increment,
+  p_id SMALLINT,
+  impression TINYINT,
+  time datetime,
+  ip TEXT
+);
