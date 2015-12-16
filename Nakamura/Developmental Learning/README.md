@@ -1,37 +1,50 @@
 #Purpose
 I wanted to simulate developmental way of learning with deep learning algorithm.
-my approach is, training developmental 
+In this case, I made a CNN(based on VGG-mini) which does an image clastering task with adding layer step by step. I took the Cifar-10 for a database to use. An important point is, attaching new layer to input layer. My purpose was, finding a result which is given by an incremental development of learning accuracy.
+In order to make comparison, I made another CNN which just outputs result of training for each numbers of layers.
 
-#download dataset
+results are as follows.
+
+There are two points. (1)the difference of curvature. (2)with epoch goes, accuracy and loss of developmental way of CNN training hit a roof.
+(1) is obviously caused by the way of learning. it seems that developmental way of learning can get good acuracy with less times of epoch. 
+(2) is caused by the first step of learning with minimum layers. In my case, weights are fixed in order from output layer, so output accuracy and loss are limited by the first training.
+
+
+
+
+#How To Train
+##Download dataset
 sh download.sh
 
 this command is gonnam make 'cifar-10-batches-py' directory which contains 5 data batches, readme.html, and so on.
 
-#Pickle datasets
+##Pickle datasets
 python dataset.py
 
 this command is gonna make 'data' directory which contains 'test_data.npy', 'test_labels.npy', 'train_data.py', 'train_labels.py'
 
-#Run Developmental Learning
+##Run Developmental Learning
 python developmental_train.py
 
 you will see 'result' directory. which has directories starts with 'Developmental_train_' and ends with the date, like 'Developmental_train_2015-10-25_12-09-54_144574259471'.
 you can see log.txt in the directory. but it may be dificult to lead those boring lines.
 
-#Draw Graphs
+##Draw Graphs
 python draw_loss_crvs.pt --logfile --outdir
 
 you can write graphs with this command. --logfile is the log.txt which you made before. you need to specify --outdir also.
 you will see four graphs with this command. 'log_test_acc.png','log_test_loss.png','log_train_acc.png','log_train_loss.png'
 
 
-#Comparison
+##Comparison
 in order to compare with normal way of training, i made normal_train.py.
 you can run this command as developmental_train.py. you will see a directory which starts with 'Normal_train_' in the 'results' directory.
 you can also use graph drawing command.
 
 
 #Requirements
+Recomend to use GPU. My code runs on GPU also.
+
 chainer==1.3.2
 filelock==2.0.4
 funcsigs==0.4

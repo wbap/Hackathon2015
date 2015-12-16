@@ -1,9 +1,8 @@
 The First WBAI Hackathon (2015-09) Team Report
 
-The Title of the Project:
-Disassembly and Reconstruction of the Deep Learning
+Title: Disassembly and Reconstruction of the Deep Learning
 
-Members: name, affiliate; name, affiliate; …
+Members:
 - Kotone Itaya, Keio Univ. SFC
 - Urara Watanabe, Keio Univ. SFC
 - Kazeto Fukasawa, Keio Univ. SFC
@@ -11,10 +10,10 @@ Members: name, affiliate; name, affiliate; …
 - (Koichi Takahashi)
 
 Abstract: 
-This is our assignment for WBAI hackathon which was held in Tokyo 2015.
+This is our assignment for the first WBAI hackathon.
 Our purpose is thinking about DeepLearning algorithm itself with several ways.
-we have had three outputs.
+we have made three outputs.
 
-first: multimodal deep learning  
-second: stacked convolutional autoencoder
-third: Developmental Learning
+- first: multimodal deep learning  
+- second: stacked convolutional autoencoder
+- third: Developmental Learning
