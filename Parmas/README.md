@@ -1,15 +1,14 @@
 # Team Parmas
-Add a one line description here...
+State-space reduction for model-based reinforcement learning using auto-encoders
 
 ## Team Members (Mentors)
-- Member 1
-- Member 2
+- Paavo Parmas
 
-## Introduction
-Some introduction...
+##External code
+The version of PILCO I used is not open to public, so I can't release the whole code.
 
-## Materials and Methods
-Some materials and methods information...
+However, there is an earlier version of PILCO freely available at
+http://mloss.org/software/view/508/
 
-## Results and Discussion
-Some results and discussion...
+I used the Deep Learning Toolbox from 
+https://github.com/rasmusbergpalm/DeepLearnToolbox
