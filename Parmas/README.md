@@ -1,7 +1,7 @@
 # Team Parmas
 State-space reduction for model-based reinforcement learning using auto-encoders
 
-## Team Members (Mentors)
+## Team Members
 - Paavo Parmas
 
 ##External code
