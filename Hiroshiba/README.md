@@ -1,4 +1,26 @@
-2015年9月に開催された第1回WBAIハッカソンに『鏡像自己認識機能のための自己連動感の獲得』というタイトルで出場したチームの成果物リポジトリです。
+# Team Hiroshiba
 
-第1回WBAIハッカソン  
-http://wbawakate.jp/events/hackathon2015/
+## Theme
+*Acquisition of a mirror self-recognition mechanism*
+
+## Member
+1. Hiroshiba Kazuyuki(Nara Institute of Science and Technology)
+2. Motoya Kohei(Osaka University)
+3. Minami Sorato(Osaka University)
+4. Hagad, Juan Lorenzo(Osaka University)
+
+## Files
+#### presentation.pdf
+
+The presentation file we showed.  
+Introduction, Method and Result are written.
+
+#### mitsuba
+
+This directory contains the source codes that can make 3D human body images by using [Mitsuba](http://www.mitsuba-renderer.org/).  
+When we run *body_test2.py*, we can get "body movement movie".
+
+#### NeuralNetwork
+
+This directory contains the source codes that can train and test to "mirror self-recognition".  
+When we run *test_LastML.py*, a model will be trained and tested.
