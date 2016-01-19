@@ -7,7 +7,7 @@ Synthesis and visualization of concept according by "Word2dream"   - Toward the 
 - Shin Moriga(Osaka University)  
 
 ## Abstract　　
-Our system, "Word2dream" generates an image that reflects the meaning of two user-given words(one is norm, the other is epithet).  
+Our system, "Word2dream" generates an image that reflects the meaning of two different　user-given words(one is norm, the other is epithet).  
 
 ## Dependancies　　
 * Python2.7  
@@ -20,8 +20,8 @@ Our system, "Word2dream" generates an image that reflects the meaning of two use
 * CUDA(7.0 >=)  
 * matplotlib  
 
-## Reference
- Code:  
+## Reference  
+  Code:  
 * chainer-gogh  (https://github.com/mattya/chainer-gogh)
 
  Papers:  
