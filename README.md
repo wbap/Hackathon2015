@@ -2,7 +2,7 @@
 Achievements from the 2015 WBAI Hackathon.
 
 ## Teams
-1. Ito - [One line description.]
+1. Itoh - Curiosity based exploration using place cell
 2. Tsuduki - [One line description.]
 3. Doi - [One line description.]
 4. Nakamura - [One line description.]
